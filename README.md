@@ -27,10 +27,10 @@ Things you may want to cover:
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|name|string|null: false,add_index:true|
-|mail|string|null: false,unique:true|
-|password|string|null: false|
-|password_confirmation|string|null: false|
+|name|string|null: false,add_index:true|
+|mail|string|null: false,unique:true|
+|password|string|null: false|
+|password_confirmation|string|null: false|
 ### Association
 -has_many :messages
 -has_many :groups,through: groups_users
@@ -52,7 +52,7 @@ Things you may want to cover:
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|groups_name|string|null: false,unique: true|
+|group_name|string|null: false,unique:true|
 ### Association
 -has_many :messages
 -has_many :users,through: groups_users
