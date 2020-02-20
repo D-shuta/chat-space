@@ -41,6 +41,7 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |text|string||
+|img|text||
 |users_id|integer|null: false,foreign_key: true|
 |group_id|integer|null: false,foreign_key: true|
 ### Association
@@ -66,4 +67,5 @@ Things you may want to cover:
 ### Association
 -belongs_to :group
 -belongs_to :user
+
 
