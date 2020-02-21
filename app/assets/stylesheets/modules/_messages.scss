@@ -1,0 +1,31 @@
+*{box-sizing: border-box;
+.side-ber{
+  width: 300px;
+  float: left;
+  // background-color: white;
+  height: 100vh;  
+
+  .side-ber__header{
+    background-color: #253141;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    .top-tag__main{
+     .top-tag__name{
+
+     }
+     .top-tag__item{
+
+     }
+    }
+  }
+ .side-ber__contents{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 20px 20px 0;
+  overflow: scroll;
+}
+
+}
+}

@@ -1,0 +1,26 @@
+*{box-sizing: border-box;
+.main-chat{
+  width: calc(100vw - 300px);
+  float: left;
+  height: 100vh;
+  // background-color:royalblue;
+
+  .main-chat__header{
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .main-chat__contents{
+    background-color: #fafafa;
+    height:calc(100vh - 190px);
+
+  }
+  .main-chat__boober{
+    background-color: #d2d2d2;
+    height: 90px;
+  }
+}
+
+}
