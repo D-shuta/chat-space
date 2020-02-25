@@ -2,13 +2,13 @@
  .side-ber__header
   .top-tag
    .top-tag__name
-    D
+    = current_user.name
    .top-tag__box
     = link_to "#", class: "top-tag__item" do
      = icon('fa', 'edit') 
      %span<>
-    = link_to "#", class: "top-tag__item-two" do
-     = icon('fa', 'cog')
+    = link_to edit_user_path(current_user) do
+     = icon('fa', 'cog',class: "top-tag__item-two")
  .side-ber__contents
   .group
    .group__name
