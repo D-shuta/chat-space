@@ -47,7 +47,7 @@
    &__contents-box{
       padding-bottom: 40px;
    }
-     .contents__coment{
+     .contents__comment{
        margin-bottom: 10px;
        display: flex;
        &--name{
@@ -61,7 +61,7 @@
          margin-left: 10px;
        }
      }
-     .contents__coment--messages{
+     .contents__comment--messages{
        font-size: 14px;
        color: #434a54;
        margin-bottom: 50px;
@@ -75,7 +75,7 @@
     .footer__messages{
       display: flex;
       width:100% ;
-      .footer__massages--box{
+      .footer__messages--box{
         background-color:$white;
         color:#999;
         height: 50px;
@@ -85,13 +85,12 @@
         line-height: 50px;
         position: relative;
 
-       .footer__massage--icon{
+       .footer__message--icon{
         position: absolute;
         top: 0px;
         right: 10px;
         font-size: 1.3rem;
          &--image{
-          //  background-color: black;
           color: black;
           input{
             display: none;
@@ -99,7 +98,7 @@
         }
        }
      }
-      .footer__massages--sousin{
+      .footer__messages--sousin{
         &--btn{
           height: 50px;
           line-height: 50px;
