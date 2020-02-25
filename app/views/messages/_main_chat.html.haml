@@ -1,4 +1,37 @@
 .main-chat
- .main-chat__header
+ .header
+  .header__left
+   test
+   .header__left--member
+    ttest
+  .header__right
+   = link_to "#", class: "header__right--btn" do
+    Edit
  .main-chat__contents
- .main-chat__boober
+  .main-chat__contents--box
+   .contents__coment
+    .contents__coment--name
+     D
+    .contents__coment--date
+     2020/02/24
+   .contents__coment--messages
+    aa
+   .contents__coment
+    .contents__coment--name
+     D
+    .contents__coment--date
+     2020/02/24
+   .contents__coment--messages
+    aa
+ .main-chat__footer
+  .footer__messages
+   .footer__massages--box
+    massssss
+    .footer__massage--icon
+     %label{class: "footer__massage--icon--image"}
+      = icon('fa', 'image') 
+      %input{type: "file"}
+
+   .footer__massages--sousin
+   = link_to "#", class: "footer__massages--sousin--btn" do
+    Send
