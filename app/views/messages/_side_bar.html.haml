@@ -4,19 +4,17 @@
    .top-tag__name
     = current_user.name
    .top-tag__box
-    = link_to "#", class: "top-tag__item" do
+    = link_to new_group_path,class: "top-tag__item" do
      = icon('fa', 'edit') 
      %span<>
     = link_to edit_user_path(current_user) do
      = icon('fa', 'cog',class: "top-tag__item-two")
  .side-ber__contents
-  .group
-   .group__name
-    d
-   .group__list
-    aa
-  .group
-   .group__name
-    d
-   .group__list
-    aa
+  - current_user.groups.each do |group|
+   .group
+    = link_to '#' do
+     .group__name
+     = group.name
+    .group__list
+     ノーメッセージ
+ 
