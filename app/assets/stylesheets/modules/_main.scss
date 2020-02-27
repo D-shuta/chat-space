@@ -73,10 +73,12 @@
     padding: 20px 40px;
 
     .footer__messages{
+      .new_message{
       display: flex;
       width:100% ;
       .footer__messages--box{
         background-color:$white;
+        display: flex;
         color:#999;
         height: 50px;
         padding: 0 40px 0 10px;
@@ -85,20 +87,23 @@
         line-height: 50px;
         position: relative;
 
-       .footer__message--icon{
+       .footer__messages--box{
         position: absolute;
         top: 0px;
         right: 10px;
         font-size: 1.3rem;
          &--image{
           color: black;
-          input{
-            display: none;
           }
         }
        }
      }
+      .icon{
+        font-size: 1.3rem;
+        padding: 14px;
+      }
       .footer__messages--sousin{
+        display: none;
         &--btn{
           height: 50px;
           line-height: 50px;
